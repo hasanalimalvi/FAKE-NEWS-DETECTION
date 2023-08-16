@@ -20,7 +20,7 @@ This is basic logistic regression model to predict whether news is fake or not.
 
 - **Stemming** is the process to convert word into its root word. Example: actor, actress -> act.
 
-- Using <code>PorterStemmer</code> I have removed all symbols and numbers, because main thing which make difference between real news and fake news is textual part. ALso, converted whole textual data to lowercase letters and removed stopwords.
+- Using <code>PorterStemmer</code> I have removed all symbols and numbers, because main thing which make difference between real news and fake news is textual part. Also, converted whole textual data to lowercase letters and removed stopwords.
 
 - I have reduced number of features by merging *title* and *author* column.  
 
